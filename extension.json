@@ -1,0 +1,23 @@
+{
+	"id": "background",
+	"version": "2.0.0",
+	"name":"大厅&室内背景修改",
+	"author":"Yuri",
+	"description":"大厅背景&室内背景.",
+	"preview":"preview.jpg",
+	"dependencies": {
+    "font_override": "^1.0.0"
+  },
+	"resourcepack": [
+	{
+	"from":"scene/Assets/Resource/lobby/yard.jpg",
+    "to":"lobby/yard.jpg",
+	"all-servers":true
+	},
+	{
+	"from":"scene/Assets/Resource/lobby/indoor.jpg",
+    "to":"lobby/indoor.jpg",
+	"all-servers":true
+	}
+  ]
+}
